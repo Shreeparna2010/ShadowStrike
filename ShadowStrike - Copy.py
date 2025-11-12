@@ -16,7 +16,7 @@ def banner():
         \/         \/     \/        \/     \/          \/        \/     \/     \/    \/ 
 """ + "\033[0m")
     print("\033[1;92m:: ShadowStrike :: Modular Chrome Login Tester")
-    print(":: Author: Shreeparna | Tactical AI Collaboration")
+    print(":: Author: Shreeparna")
     print(":: For educational use only ::" + "\033[0m\n")
 
 # === Stealth Browser Launcher ===
@@ -190,4 +190,5 @@ if __name__ == "__main__":
     username = input("Instagram username: ").strip()
     wordlist = input("Path to password list (.txt): ").strip()
     handle_command("multi_test", {"username": username, "wordlist": wordlist})
+
 
